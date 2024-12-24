@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -104,6 +105,44 @@ namespace _08_Methods
             //z = Console.ReadLine();
             //Console.WriteLine(CountryCard(x, y, z));
             //Console.WriteLine(CountryCard("Tüürkiye", "Ankara", "Kırmızı-Beyaz"));
+
+
+            #endregion
+
+            #region Geriye değer döndüren Int parametreli metotlar
+
+            //int Sum(int number1, int number2)
+            //{
+            //    int result=(number1 + number2);
+            //    return result;
+            //}
+            //Console.WriteLine(Sum(45,98));
+            //Console.WriteLine(Sum(47,98));
+            //Console.WriteLine(Sum(85,98));
+            //Console.WriteLine(Sum(65,98));
+
+
+
+            #endregion
+
+            #region örnek uygulama 
+
+            //string ExamResult(string student, int exam1, int exam2, int exam3)
+
+            //{
+            //    int result = (exam1 + exam2 + exam3) / 3;
+            //    if (result >= 50)
+            //    {
+            //        return student + " isimli öğrenci sınavı geçti " + "Ortalama: " + result;
+            //    }
+            //    else {
+            //        return student + " isimli öğrenci sınavı geçemedi" + "Ortalama: " + result;
+            //    }
+            //}
+            //Console.WriteLine(ExamResult("ali", 25, 41, 55));
+            //Console.WriteLine(ExamResult("ayse", 85, 49, 66));
+
+
 
 
             #endregion
